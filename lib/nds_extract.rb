@@ -109,18 +109,6 @@ def movies_with_directors_set(source)
 
   while dir_i < source.length do
 
-    if !source[dir_i]
-
-      source[dir_i] = []
-
-    else
-
-      movie_i = 0
-
-      while
-
-    end
-
   end
 
 
