@@ -113,7 +113,7 @@ def movies_with_directors_set(source)
 
   end
 
-  directors
+  pp directors
 end
 
 # ----------------    End of Your Code Region --------------------
