@@ -56,7 +56,8 @@ def movies_with_director_key(name, movies_collection)
 
   while title_i < movies_collection.length do
 
-    puts new_hash = {name => movies_collection[title_i][:title]}
+    movies_collection[title_i][:director_name] = name
+
     title_i += 1
 
   end
