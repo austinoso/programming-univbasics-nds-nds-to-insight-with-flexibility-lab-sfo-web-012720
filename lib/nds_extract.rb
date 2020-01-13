@@ -105,24 +105,24 @@ def movies_with_directors_set(source)
 
   pp source
 
-  # directors = []
-  # dir_i = 0
-  #
-  # while dir_i < source.length do
-  #
-  #   if !source[dir_i]
-  #
-  #     source[dir_i] = []
-  #
-  #   else
-  #
-  #     movie_i = 0
-  #
-  #     while
-  #
-  #   end
-  #
-  # end
+  directors = []
+  dir_i = 0
+
+  while dir_i < source.length do
+
+    if !source[dir_i]
+
+      source[dir_i] = []
+
+    else
+
+      movie_i = 0
+
+      while
+
+    end
+
+  end
 
 
 end
