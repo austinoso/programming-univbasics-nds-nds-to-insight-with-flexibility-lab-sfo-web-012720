@@ -58,7 +58,7 @@ def movies_with_director_key(name, movies_collection)
 
     output << {
 
-      :director_name => name
+      :director_name => name,
       :title => movies_collection[title_i][:title]
 
     }
