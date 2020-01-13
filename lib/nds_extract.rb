@@ -111,6 +111,8 @@ def movies_with_directors_set(source)
 
     directors << movies_with_director_key(source[:name], source[:movies])
 
+    dir_i += 1
+
   end
 
   puts directors
