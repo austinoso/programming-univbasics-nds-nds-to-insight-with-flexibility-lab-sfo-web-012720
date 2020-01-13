@@ -116,7 +116,7 @@ def movies_with_directors_set(source)
 
   end
 
-  puts directors
+  directors
 end
 
 # ----------------    End of Your Code Region --------------------
