@@ -109,6 +109,8 @@ def movies_with_directors_set(source)
 
   while dir_i < source.length do
 
+    movies_with_director_key(source[:name], movies_collection)
+
   end
 
 
