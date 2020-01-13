@@ -53,7 +53,6 @@ def movies_with_director_key(name, movies_collection)
   title_i = 0
 
   while title_i < movies_collection.length do
-
     output << {
 
       :director_name => name,
