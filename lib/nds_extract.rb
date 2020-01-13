@@ -109,11 +109,11 @@ def movies_with_directors_set(source)
 
   while dir_i < source.length do
 
-    movies_with_director_key(source[:name], movies_collection)
+    directors << movies_with_director_key(source[:name], source[:movies])
 
   end
 
-
+  directors
 end
 
 # ----------------    End of Your Code Region --------------------
