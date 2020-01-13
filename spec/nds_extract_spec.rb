@@ -49,7 +49,7 @@ describe 'movies_with_directors_set' do
               { :title => "Biting" },
             ]
             }
-          ] 
+          ]
         }
 
         it 'correctly "distributes" Byron Poodle as :director_name of the first film' do
@@ -103,7 +103,7 @@ end
 #        "MGM"=>83471511
 #       }
 #     }
-# 
+#
 #     it "correctly total 'Universal'" do
 #       expect(studios_totals(directors_database)['Universal']).to eq(expected['Universal'])
 #     end
@@ -143,8 +143,8 @@ end
 #     it "correctly total 'MGM'" do
 #       expect(studios_totals(directors_database)['MGM']).to eq(expected['MGM'])
 #     end
-# 
-# 
-# 
+#
+#
+#
 #   end
 # end
