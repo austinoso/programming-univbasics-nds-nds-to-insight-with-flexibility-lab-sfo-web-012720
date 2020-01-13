@@ -103,24 +103,24 @@ def movies_with_directors_set(source)
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
 
-  # directors = []
-  # dir_i = 0
-  #
-  # while dir_i < source.length do
-  #
-  #   if !source[dir_i]
-  #
-  #     source[dir_i] = []
-  #
-  #   else
-  #
-  #     movie_i = 0
-  #
-  #     while
-  #
-  #   end
-  #
-  # end
+  directors = []
+  dir_i = 0
+
+  while dir_i < source.length do
+
+    if !source[dir_i]
+
+      source[dir_i] = []
+
+    else
+
+      movie_i = 0
+
+      while
+
+    end
+
+  end
 
 
 end
