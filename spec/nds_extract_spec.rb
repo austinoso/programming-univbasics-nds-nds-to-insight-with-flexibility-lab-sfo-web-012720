@@ -7,21 +7,21 @@ describe 'provided method' do
     end
   end
 
-  describe 'movie_with_director_name' do
-    it "creates a new movie Hash with director's name provided" do
-      director_name = "Byron Poodle"
-      movies_coll = {
-        :worldwide_gross => 2,
-        :release_year => 2014,
-        :studio => "Karbit Poodles",
-        :title => "The Fire Hydrant of Doom"
-      }
-      new_movie = movie_with_director_name(director_name, movies_coll)
-
-      expect(new_movie[:director_name]).to eq(director_name)
-    end
-  end
-end
+#   describe 'movie_with_director_name' do
+#     it "creates a new movie Hash with director's name provided" do
+#       director_name = "Byron Poodle"
+#       movies_coll = {
+#         :worldwide_gross => 2,
+#         :release_year => 2014,
+#         :studio => "Karbit Poodles",
+#         :title => "The Fire Hydrant of Doom"
+#       }
+#       new_movie = movie_with_director_name(director_name, movies_coll)
+#
+#       expect(new_movie[:director_name]).to eq(director_name)
+#     end
+#   end
+# end
 
 describe 'movies_with_director_key' do
   it 'adds a :director_name key an AoH of movies' do
@@ -49,7 +49,7 @@ describe 'movies_with_directors_set' do
               { :title => "Biting" },
             ]
             }
-          ] 
+          ]
         }
 
         it 'correctly "distributes" Byron Poodle as :director_name of the first film' do
